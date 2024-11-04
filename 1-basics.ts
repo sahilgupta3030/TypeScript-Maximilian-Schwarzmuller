@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // 1
 // console.log("Hello typescript");
 
@@ -42,7 +41,6 @@ const printPhrase = 'The Result is: ';
 
 add(number1, number2, printResult, printPhrase);
 
-=======
 // // 1
 // console.log("Hello typescript");
 
@@ -86,4 +84,3 @@ const printPhrase = 'The Result is: ';
 
 add(number1, number2, printResult, printPhrase);
 
->>>>>>> 03b38d34aff497eb8d24f987a12bb8a43ae9ba48

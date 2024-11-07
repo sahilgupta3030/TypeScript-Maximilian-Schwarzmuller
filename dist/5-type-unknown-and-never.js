@@ -1,3 +1,4 @@
+"use strict";
 // // // type  :unknown
 // let userInput: unknown;
 // // let userInput: any; this does not throws error if assigned later as other type
@@ -20,8 +21,10 @@
 // function generateError(message: string, code: number) {
 //     throw { message: message, errorCode: code };
 // }
-var result = generateError("Something went wrong!", 400);
+const result = generateError("Something went wrong", 400);
 console.log(result); // this does not execute as generateError Never returns..
+// however such function assume them as void but for clarity we should use Never type
+// Never should be used as code crashes and did not returns anything
 function generateError(message, code) {
     throw { message: message, errorCode: code };
 }

@@ -34,7 +34,7 @@
 //     throw { message: message, errorCode: code };
 // }
 
-const result = generateError("Something went wrong!", 400);
+const result = generateError("Something went wrong", 400);
 console.log(result); // this does not execute as generateError Never returns..
 
 // however such function assume them as void but for clarity we should use Never type

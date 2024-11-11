@@ -53,4 +53,3 @@ const itDept = new IT('d1', ['Max']);
 itDept.addEmployee('Chandler');
 itDept.describe();
 itDept.printEmployees();
-

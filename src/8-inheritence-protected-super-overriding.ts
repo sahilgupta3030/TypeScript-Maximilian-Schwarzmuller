@@ -1,3 +1,4 @@
+// Inheritance.............
 class Departments {
     // Used "protected" for accessing within classes & subclasses only..
     protected employees: string[] = [];
@@ -19,7 +20,7 @@ class Departments {
     }
 }
 
-class ITDepartments extends Departments {
+class ITdepartments extends Departments {
     admins: string[];
 
     constructor(id: string, admins: string[]) {
@@ -36,7 +37,7 @@ class ITDepartments extends Departments {
     }
 }
 
-const it = new ITDepartments('D001', ['Max']);
+const it = new ITdepartments('D001', ['Max']);
 it.addEmployee('Joey');
 it.addEmployee('Chandler');
 it.describe();

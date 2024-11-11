@@ -1,4 +1,5 @@
 "use strict";
+// Inheritance.............
 class Departments {
     constructor(id, name) {
         this.id = id;
@@ -18,7 +19,7 @@ class Departments {
         console.log(this.employees);
     }
 }
-class ITDepartments extends Departments {
+class ITdepartments extends Departments {
     constructor(id, admins) {
         super(id, "IT");
         this.admins = admins;
@@ -31,7 +32,7 @@ class ITDepartments extends Departments {
         this.employees.push(employee);
     }
 }
-const it = new ITDepartments('D001', ['Max']);
+const it = new ITdepartments('D001', ['Max']);
 it.addEmployee('Joey');
 it.addEmployee('Chandler');
 it.describe();

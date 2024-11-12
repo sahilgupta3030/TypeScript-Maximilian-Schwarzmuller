@@ -28,10 +28,10 @@
 // // combined = printResult;
 // console.log(combined(10, 17));
 // // // Function as callbacks.....
-function addHandle(a, b, callback1) {
-    let result = a + b;
-    callback1(result);
-}
-addHandle(20, 30, (ans) => {
-    console.log(ans);
-});
+// function addHandle(a: number, b: number, callback1: (result: number) => void) {
+//     let result = a + b;
+//     callback1(result);
+// }
+// addHandle(20, 30, (ans) => {
+//     console.log(ans);
+// });

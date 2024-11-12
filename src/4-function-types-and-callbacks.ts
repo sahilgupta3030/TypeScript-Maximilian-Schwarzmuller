@@ -39,11 +39,11 @@
 
 
 // // // Function as callbacks.....
-function addHandle(a: number, b: number, callback1: (result: number) => void) {
-    let result = a + b;
-    callback1(result);
-}
+// function addHandle(a: number, b: number, callback1: (result: number) => void) {
+//     let result = a + b;
+//     callback1(result);
+// }
 
-addHandle(20, 30, (ans) => {
-    console.log(ans);
-});
+// addHandle(20, 30, (ans) => {
+//     console.log(ans);
+// });

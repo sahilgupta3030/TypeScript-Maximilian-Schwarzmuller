@@ -1,5 +1,5 @@
 // // // Interface.........
-interface Person {
+interface PersonOn {
     name: string,
     age: number,
 

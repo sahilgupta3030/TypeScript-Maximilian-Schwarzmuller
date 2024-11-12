@@ -1,20 +1,20 @@
-// // // Interface.........
-interface PersonOn {
-    name: string,
-    age: number,
+// // // // Interface.........
+// interface PersonOn {
+//     name: string,
+//     age: number,
 
-    greet(phrase: string): void;
-}
+//     greet(phrase: string): void;
+// }
 
-let Mine: Person;
+// let Mine: Person;
 
-Mine = {
-    name: "Steve",
-    age: 25,
+// Mine = {
+//     name: "Steve",
+//     age: 25,
 
-    greet(phrase) {
-        console.log(`${phrase} ${this.name}`);
-    }
-}
+//     greet(phrase) {
+//         console.log(`${phrase} ${this.name}`);
+//     }
+// }
 
-Mine.greet("Hello there I am ...");
+// Mine.greet("Hello there I am ...");

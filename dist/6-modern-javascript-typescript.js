@@ -8,7 +8,7 @@
 // // console.log(subtraction(20, 30));
 // // // //const justReturn1 = value: number => value; // do not work in typescript (valid in Js)
 // // const justReturn2 = (value: number) => value; // this works
-// // const justReturn3: (a: number) => number = output => output; // now its works
+// // const justReturn3: (a: number) => number = output => output; // now it works
 // // // // default parameters should come last in typescript
 // // function learning1(a: number, b: number = 1) {
 // //     return a + b;

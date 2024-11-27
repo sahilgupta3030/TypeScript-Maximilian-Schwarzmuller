@@ -1,5 +1,5 @@
 // // // // Interface.........
-// interface PersonOn {
+// interface Person {
 //     name: string,
 //     age: number,
 

@@ -11,7 +11,7 @@
 // // // //const justReturn1 = value: number => value; // do not work in typescript (valid in Js)
 // // const justReturn2 = (value: number) => value; // this works
 
-// // const justReturn3: (a: number) => number = output => output; // now its works
+// // const justReturn3: (a: number) => number = output => output; // now it works
 
 
 
